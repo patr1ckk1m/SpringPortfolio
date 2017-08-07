@@ -7,4 +7,12 @@ public class HomeController {
 	public String home() {
 		return "forward:/index.html";
 	}
+	@RequestMapping("/projects")
+	public String projects() {
+		return "forward:/projectpage.html";
+	}
+	@RequestMapping("/aboutme")
+	public String about() {
+		return "forward:/about.html";
+	}
 }
