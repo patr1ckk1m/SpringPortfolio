@@ -1,0 +1,18 @@
+#container {
+	background-color: #78866B;
+}
+
+#header {
+	text-align: center;
+}
+
+#boxes {
+	display: inline-flex;
+}
+
+.box {
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	background-color: #D2D2D2;
+}
